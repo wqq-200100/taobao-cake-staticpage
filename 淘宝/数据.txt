@@ -1,0 +1,17 @@
+header: height:200px;
+
+aside:  wight:290px;
+	height:1500	px;
+
+我常逛的：height：510px;	
+	  wight:890px;
+
+时尚：	  height：390px;	
+	  wight:890px;
+
+热卖：	 height：645px;	
+	  wight:1192px;
+
+消费者权益： height：220px;	
+	    
+脚：	height：250px

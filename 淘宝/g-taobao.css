@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer>div{
+    height: 250px;
+    width: 1186px;
+}
+footer a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+.footer-top{
+    width: 100%;
+    height: 71px;
+
+}
+.footer-top li{
+    float: left;
+    margin-right: 5px;
+}
+.footer-top>ul{
+    width: 1186px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.footer-top>ol{
+    width: 1186px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(102, 100, 100);
+}
+.footer-top li:not(:last-child) a{
+    border-right: 1px solid rgb(102, 100, 100);
+    padding-left: 7px;
+    padding-right: 7px;
+    box-sizing: border-box;
+    
+}
+.about{
+    width: 100%;
+    height: 86px;
+    position: relative;
+    display: flex;
+    justify-content:space-between; 
+    flex-wrap: wrap;
+}
+.about ul{
+    align-items: center;
+   float: left;
+   display: flex;
+   padding: 0 7px 0 7px;
+   font-size: 14px;
+   
+}
+.about li:not(:last-child) a{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.about li:last-child{
+    padding-right: 15px;
+    border-right: 1px solid rgb(102, 100, 100);
+}
+.about p{
+    font-size: 12px;
+    color: #6c6c6c;
+    padding-left: 7px;
+    padding-right: 7px;
+    line-height: 20px;
+    height: 20px;
+}
+footer a:hover{
+     color: #f40;
+}
+.outer{
+    border-right: 1px solid rgb(102, 100, 100);
+}

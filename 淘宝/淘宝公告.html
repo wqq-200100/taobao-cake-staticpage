@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Microsoft YaHei";
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .info {
+            width: 290px;
+            height: 110px;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            border: 1px solid;
+            position: relative;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        ul>li {
+            width: 40px;
+            text-align: center;
+        }
+
+        ul>li:hover>a {
+            font-weight: bold;
+            border-bottom: 2px solid red;
+        }
+
+        ol {
+            height: 60px;
+            padding-top:15px;
+            box-sizing: border-box; 
+            text-align: left;
+            position: absolute;
+            top: 35px;
+            left: 10px;
+            display: none;
+        }
+        .block{
+            display: block;
+        }
+        ol>li{
+            background-color: #fff;
+        }
+        ol a {
+            font-size: 12px;
+        }
+        ul>li:hover ol {
+            display: block;
+            z-index: 2;
+        }
+        ol>li:nth-of-type(even){
+            margin-top: 10px;
+        }
+        ol>li:hover a{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <ul>
+            <li>
+                <a href="#">公告</a>
+                <ol class="block">
+                    <li>
+                        <a href="#">公告马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                    <li>
+                        <a href="#">公告马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#">规则</a>
+                <ol>
+                    <li>
+                        <a href="#">规则马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                    <li>
+                        <a href="#">规则马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#">论坛</a>
+                <ol>
+                    <li>
+                        <a href="#">论坛马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                    <li>
+                        <a href="#">论坛马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#">安全</a>
+                <ol>
+                    <li>
+                        <a href="#">安全马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                    <li>
+                        <a href="#">安全马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <a href="#">公益</a>
+                <ol>
+                    <li>
+                        <a href="#">公益马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                    <li>
+                        <a href="#">公益马云访阿根廷签战略合作 总统亲自推销农产品</a>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

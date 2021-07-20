@@ -1,0 +1,244 @@
+a{
+    text-decoration: none;
+}
+.P-bgain{
+    position: relative;
+}
+.P-menu{
+    width: 190px;
+    height: 556px;
+    background-color: #ff6a05;
+    position: absolute;
+    top: -44px;
+}
+.P-menu h1{
+    font-size: 18px;
+}
+.P-menu ul,.P-menu h1,.P-menu a{
+    color: #fff;
+    font-family: "幼圆";
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+.P-menu ul{
+    margin-top: 20px;
+    
+}
+.P-menu ul>li{
+    width: 100%;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.P-menu_text{
+    height: 30px;
+    line-height: 30px;
+}
+.P-menu li span{
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+}
+/* .P-menu_text>a{
+    font-size: 12px;
+} */
+.P-menu .P-menu_text>a:hover{
+    /* color: #f94a14; */
+    /* font-size: 16px; */
+    text-decoration: underline;
+}
+.P-menu li:hover .P-sidemenu{
+    display: block;
+}
+.P-sidemenu{
+    width: 710px;
+    height: 512px;
+    border: 2px solid #f94a14;
+    background-color: #fff;
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    z-index: 2;
+    
+    display: flex;
+    display: none;
+}
+/* 测试 */
+/* .P-menu li:nth-child(1)>.P-sidemenu{
+    display: block;
+} */
+.P-sidemenu_left{
+    width: 455px;
+    height: 100%;
+    border-right: 1px solid #f4f4f4;
+    float: left;
+    /* background-color: greenyellow; */
+    /* color: #666; */
+}
+.P-sidemenu_left a{
+    color: #666;
+    font-family: "宋体";
+    font-weight: bold;
+}
+.P-sidemenu_left a:hover{
+    color: #ff4400;
+}
+.P-small_box{
+    width: 100%;
+    height: 33.33%;
+    padding: 20px 14px 10px 28px;
+    box-sizing: border-box;
+    position: relative;
+}
+.P-small_box>.P-more{
+    color: #3c3c3c;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.P-small_box ol{
+    width: 428px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.P-small_box ol>li{
+    padding:  16px 16px 0 0;
+    box-sizing: border-box;
+    
+}
+.P-small_box ol>li a{
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: 100;
+}
+.P-sidemenu_right{
+    width: 254px;
+    height: 100%;
+    margin: 0;
+    float: right;
+    text-align: center;
+    /* background-color: firebrick; */
+}
+.P-sidemenu_right a{
+    color: #3c3c3c;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "宋体";
+}
+.P-main-top{
+    height: 280px;
+    width: 690px;
+    /* background-color: darkcyan; */
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.P-main-bottum{
+    width: 690px;
+    height: 220px;
+    /* background-color: darkgreen; */
+    float: right;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.P-bottum_left{
+    width: 520px;
+    height: 100%;
+    /* line-height: 16px; */
+}
+.P-bottum_left h1{
+    /* height: 16px; */
+    font-family: "黑体";
+    color: #000;
+    font-size: 16px;
+    line-height: 16px;
+}
+.P-bottum_left h1>span{
+    color: #666666;
+    font-size: 12px;
+}
+.P-bottum_left ul{
+    display: flex;
+    justify-content: space-between;
+}
+.P-bottum_left li{
+    width: 16.66%;
+    border-top: 4px solid #c12c26;
+    cursor: pointer;
+    /* display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0; */
+    
+}
+.P-bottum_left li:hover{
+    border-top: 4px solid;
+}
+.P-bottum_left li:hover .P-list_posi{
+    z-index: 1;
+}
+.P-list_posi{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* .P-bottum_left li>ol{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+.P-bottum_left ol>a>img{
+    height: 198px;
+    width: 130px;
+}
+.P-bottum_right h1{
+    height: 20px;
+    color: #b7b7b7;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.P-right_img{
+    width: 160px;
+    height: 200px;
+    /* background-color: #9e9e9e; */
+}
+.P-footer{
+    width: 890px;
+    height: 78px;
+    background-color: #fff;
+    float: right;
+    margin-top: 10px;
+    display: flex;
+}
+.P-footer-box{
+    width: 20%;
+    height: 100%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.P-footer-box>img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f6f6f6;
+    border-radius: 30px;
+}
+#P-t-color{
+    color: #9a745f;
+    font-family: sans-serif;
+}
+.P-footer-text p{
+    font-size: 12px;
+    color: #9a745f;
+}
+.P-footer-hoter span{
+    font-size: 12px;
+    color: #999;
+}
